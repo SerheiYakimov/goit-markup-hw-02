@@ -1,0 +1,51 @@
+root: {
+  --main-text-color: #757575;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var (--main-text-color);
+}
+
+/* 
+основной цвет текста  #757575
+фон хедера - #FFFFFF;
+часть слова вэб - #2196F3;
+часть слова студио - #000000;
+
+цвет текста н1 и название кнопки - #FFFFFF;
+фон н1 - #2F303A;
+фон кнопки - #2196F3;
+
+цвет текста н2 - #212121;
+фон особенности и чем занимаемся - #E5E5E5;
+
+наша команда фон - #F5F4FA;
+фон картинки команды  - #FFFFFF;
+
+цвет ссылок - #212121;
+при наведении на ссылки цвет и мыло - #2196F3;
+цвет телефона -  #757575;
+
+цвет адреса - #FFFFFF;
+цвет слов в футере вэб такойже а студио  -#FFFFFF;
+фон футера - #2F303A;
+
+скрыть заголовок в особеннностях
+
+.visually-hidden {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+}
+*/
