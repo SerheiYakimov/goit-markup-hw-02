@@ -34,6 +34,10 @@ body {
   text-color: var(--title-color);
 }
 
+.header {
+  background-color: var(--title-color);
+}
+
 .logo {
   font-family: var(--logo-font);
   color: var(--accent-color);
@@ -56,8 +60,17 @@ body {
   color: var(--second-text-color);
 }
 
+.link-tel {
+  text-decoration: none;
+}
+
 .link:hover,
 .link:focus {
+  color: var(--accent-color);
+}
+
+.link-tel:hover,
+.link-tel:focus {
   color: var(--accent-color);
 }
 
@@ -120,6 +133,14 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--second-text-color);
+}
+
+.list-connection {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #757575;
 }
 
 /* 
