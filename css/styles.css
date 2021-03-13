@@ -1,5 +1,8 @@
-root: {
+:root {
   --main-text-color: #757575;
+  --accent-color: #2196f3;
+  --title-color: #ffffff;
+  --dark-dg-color: #2f303a;
 }
 
 body {
@@ -10,6 +13,17 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var (--main-text-color);
+}
+
+.visually-hidden {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
 }
 
 /* 
@@ -38,14 +52,5 @@ body {
 
 скрыть заголовок в особеннностях
 
-.visually-hidden {
-  position: absolute !important;
-  clip: rect(1px 1px 1px 1px);
-  clip: rect(1px, 1px, 1px, 1px);
-  padding: 0 !important;
-  border: 0 !important;
-  height: 1px !important;
-  width: 1px !important;
-  overflow: hidden;
-}
+
 */
