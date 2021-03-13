@@ -4,7 +4,7 @@
   --accent-color: #2196f3;
   --title-color: #ffffff;
   --dark-bg-color: #2f303a;
-  --second-bg-color: #e5e5e5;
+  --main-bg-color: #e5e5e5;
   --logo-font: 'Raleway', sans-serif;
 }
 
@@ -84,8 +84,42 @@ body {
   color: var(--title-color);
 }
 
-.bg-title {
+.dark-bg-title {
   background-color: var(--dark-bg-color);
+}
+
+.bg-title {
+  background-color: var(--main-bg-color);
+}
+.second-bg-color {
+  background-color: #f5f4fa;
+}
+
+.list-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: var(--second-text-color);
+}
+
+.list {
+  list-style: none;
+}
+
+.item-list {
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--main-text-color);
+}
+
+.second-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--second-text-color);
 }
 
 /* 
