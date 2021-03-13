@@ -1,8 +1,11 @@
 :root {
   --main-text-color: #757575;
+  --second-text-color: #212121;
   --accent-color: #2196f3;
   --title-color: #ffffff;
-  --dark-dg-color: #2f303a;
+  --dark-bg-color: #2f303a;
+  --second-bg-color: #e5e5e5;
+  --logo-font: 'Raleway', sans-serif;
 }
 
 body {
@@ -24,6 +27,50 @@ body {
   height: 1px !important;
   width: 1px !important;
   overflow: hidden;
+}
+
+.address {
+  font-style: normal;
+}
+
+.logo {
+  font-family: var(--logo-font);
+  color: var(--accent-color);
+  text-decoration: none;
+}
+.dark-logo {
+  font-family: var(--logo-font);
+  color: #000000;
+  text-decoration: none;
+}
+
+.light-logo {
+  font-family: var(--logo-font);
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.link {
+  text-decoration: none;
+  color: var(--second-text-color);
+}
+
+.link:hover,
+.link:focus {
+  color: var(--accent-color);
+}
+
+.button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--title-color);
+  background-color: var(--accent-color);
+  cursor: pointer;
 }
 
 /* 
