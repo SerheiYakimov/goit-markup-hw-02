@@ -102,12 +102,20 @@ body {
   color: var(--second-text-color);
 }
 
+.second-section-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var (--second-text-color);
+}
+
 .dark-bg-title,
 .footer {
   background-color: var(--dark-bg-color);
 }
 
-.bg-title {
+.bg-title .portfolio-main-dg-color {
   background-color: var(--main-bg-color);
 }
 .second-bg-color {
