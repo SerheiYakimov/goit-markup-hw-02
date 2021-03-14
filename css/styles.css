@@ -70,6 +70,11 @@ body {
   color: var(--accent-color);
 }
 
+.portfolio-button:hover,
+.portfolio-button:focus {
+  color: var(--title-color);
+}
+
 .button {
   font-weight: 700;
   font-size: 16px;
@@ -79,6 +84,17 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   color: var(--title-color);
+  background-color: var(--accent-color);
+  cursor: pointer;
+}
+
+.portfolio-button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var (--second-text-color);
   background-color: var(--accent-color);
   cursor: pointer;
 }
