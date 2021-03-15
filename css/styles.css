@@ -6,6 +6,7 @@
   --dark-bg-color: #2f303a;
   --main-bg-color: #e5e5e5;
   --second-bg-color: #f5f4fa;
+  --footer-link-color: rgba(255, 255, 255, 0.6);
   --logo-font: 'Raleway', sans-serif;
 }
 
@@ -73,6 +74,7 @@ body {
 .portfolio-button:hover,
 .portfolio-button:focus {
   color: var(--title-color);
+  background-color: var(--accent-color);
 }
 
 .button {
@@ -95,35 +97,8 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: var (--second-text-color);
-  background-color: var(--accent-color);
+  background-color: var(--second-bg-color);
   cursor: pointer;
-}
-
-.title {
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
-  text-align: center;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  color: var(--title-color);
-}
-
-.section-title {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.16;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: var(--second-text-color);
-}
-
-.second-section-title {
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 2;
-  letter-spacing: 0.06em;
-  color: var (--second-text-color);
 }
 
 .dark-bg-title,
@@ -131,7 +106,7 @@ body {
   background-color: var(--dark-bg-color);
 }
 
-.bg-title .portfolio-main-dg-color {
+.bg-title .main-dg-color {
   background-color: var(--main-bg-color);
 }
 .second-bg-color {
@@ -154,6 +129,40 @@ body {
 .item-list {
   font-size: 14px;
   line-height: 1.71;
+  color: var(--main-text-color);
+}
+
+.title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--title-color);
+}
+
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--second-text-color);
+}
+
+.portfolio-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--second-text-color);
+}
+
+.portfolio-text {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
   color: var(--main-text-color);
 }
 
@@ -201,5 +210,5 @@ body {
 }
 
 .link-connection {
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--footer-link-color);
 }
