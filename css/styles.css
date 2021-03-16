@@ -35,11 +35,19 @@ body {
   background-color: var(--title-color);
 }
 
+.nav-logo {
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+}
+
 .logo {
   font-family: var(--logo-font);
   color: var(--accent-color);
   text-decoration: none;
 }
+
 .dark-logo {
   font-family: var(--logo-font);
   color: #000000;
@@ -52,13 +60,18 @@ body {
   text-decoration: none;
 }
 
+
 .link {
-  font-weight: 400;
+  font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
   color: var(--second-text-color);
+}
+
+.link-current {
+  color:var(--accent-color);
 }
 
 .link:hover,
@@ -102,7 +115,7 @@ body {
 }
 
 .dark-bg-title,
-.footer {
+.dark-bg-footer {
   background-color: var(--dark-bg-color);
 }
 
@@ -206,9 +219,19 @@ body {
 
 .address {
   font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
   color: var(--title-color);
 }
 
 .link-connection {
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
   color: var(--footer-link-color);
 }
+
+
